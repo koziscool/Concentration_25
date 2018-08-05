@@ -2,6 +2,7 @@
 <DOCTYPE html>
 <html>
 	<head>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script src="cardmatcher.js"></script>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<title>Concentration</title>
@@ -33,8 +34,14 @@
         	        </div>
 		</div>
 
-                <div class="form-conainter">
-                  
+                <div class="form-container">
+                 	<form id="grid-size-form"> 
+				<label for="grid-size">Grid size</label>
+				<br>
+				<input type="text" id="grid-size" name="grid-size">
+				<br>				<input type="submit" value="Pick a size" id="grid-size-button">
+				<br>
+                 	<form> 
                 </div>
                 
 		<div class="grid-container">
